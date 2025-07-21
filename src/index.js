@@ -1,15 +1,17 @@
+/* eslint-disable react/jsx-pascal-case */
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
-import ImageSlider from './Carousel';
-import Carousel from './Carousel';
+// import ImageSlider from './Carousel';
+// import Carousel from './Carousel';
+import Card_slider from './Card_slider';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Carousel />
+    <Card_slider />
   </React.StrictMode>
 );
 
